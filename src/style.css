@@ -117,3 +117,23 @@ body {
     line-height: 150%;
     color: #4A4E74;
 }
+
+.interests--text {
+    padding-bottom: 40px;
+}
+
+.footer {
+    margin: 0;
+    height: 64px;
+    background: #D5D4D8;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer > i {
+    font-size: 25px;
+    color: #918E9B;
+    padding: 15px;
+}

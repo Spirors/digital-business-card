@@ -2,8 +2,11 @@ import React from 'react';
 
 export default function Footer() {
     return (
-        <footer>
-            the footer
+        <footer className='footer'>
+            <i class="bi bi-github"></i>
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-twitter"></i>
+            <i class="bi bi-instagram"></i>
         </footer>
     )
 }
