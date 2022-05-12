@@ -4,6 +4,7 @@
 
 body {
     margin: 0;
+    padding: 0;
     font-family: Inter, sans-serif;
     background-color: #23252C;
 }
@@ -13,10 +14,6 @@ body {
     width: 317px;
     margin: 44px auto;
     border-radius: 10px;
-}
-
-.info--container {
-    margin: 0;
 }
 
 .info--face {
@@ -59,6 +56,7 @@ body {
 }
 
 .info--btn--container {
+    margin: 0;
     padding-top: 17px;
     display: flex;
     align-items: center;
@@ -67,7 +65,6 @@ body {
 }
 
 .info--emailbtn {
-    margin: 0;
     width: 115px;
     height: 34px;
 
@@ -81,7 +78,6 @@ body {
 }
 
 .info--linkedinbtn {
-    margin: 0;
     width: 115px;
     height: 34px;
     
@@ -97,4 +93,26 @@ body {
 
 .info--emailbtn:active, .info--linkedinbtn:active{
     transform: translateY(1.5px);
-  }
+}
+
+.about--container {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.about--title {
+    margin: 0;
+    padding-top: 25px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.about--text {
+    margin: 0;
+    padding-top: 5px;
+
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+}
